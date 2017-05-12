@@ -1,7 +1,7 @@
 # octa_detamper 一个防篡改软件
-### Author：guoguisheng
+### Author：yixuanzi
 ### Date:2017-05-02
-### Email：guoguisheng@8lab.cn
+### Email：yeying0311@126.com
 ### Version:2.0.0
 
 # 概述
@@ -47,5 +47,10 @@ python lib:watchdog
 	6.下载备份文件(user,passwd,backup_name,dst,remote_path)=>flag_status
 	7.删除备份（user,passwd,backup_name)=>flag_status
 
-## exec
+## exec(本地模式）
+python detamper.py
+
+## exec（RPC服务模式）
+python detamper_server.py
+
 python detamper.py
